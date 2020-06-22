@@ -6,4 +6,4 @@ WORKDIR /opt/project
 
 COPY entrypoint.sh .
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/opt/project/entrypoint.sh"]
