@@ -1,0 +1,9 @@
+name: "git-crypt Unlock Action"
+description: "Unlock git-crypt files with a simple alpine based Docker image"
+author: "Diego García"
+branding:
+  icon: "unlock"
+  color: "green"
+runs:
+  using: "docker"
+  image: "Dockerfile"
