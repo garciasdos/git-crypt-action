@@ -1,4 +1,4 @@
-name: "git-crypt Unlock Action"
+name: "Tiny git-crypt unlock secrets action"
 description: "Unlock git-crypt files with a simple alpine based Docker image"
 author: "Diego García"
 branding:
