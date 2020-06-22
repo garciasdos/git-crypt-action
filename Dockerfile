@@ -2,4 +2,8 @@ FROM alpine:3.12
 
 RUN apk --update add git-crypt
 
-ENTRYPOINT ["/entrypoint.sh"]
+WORKDIR /opt/project
+
+COPY entrypoint.sh .
+
+ENTRYPOINT ["./entrypoint.sh"]
